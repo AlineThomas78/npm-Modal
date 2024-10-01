@@ -9,29 +9,29 @@ require("./Modal.css");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 function Modal(_ref) {
   var onClose = _ref.onClose,
-    open = _ref.open;
-  return open ? /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("h1", null, "Modale"), /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal show"
+    open = _ref.open,
+    title = _ref.title,
+    textContent = _ref.textContent;
+  return open ? /*#__PURE__*/_react["default"].createElement("div", {
+    className: "custom-modal-overlay"
   }, /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal-dialog"
+    className: "custom-modal"
   }, /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal-content"
-  }, /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal-header"
+    className: "custom-modal-header"
   }, /*#__PURE__*/_react["default"].createElement("h5", {
-    "class": "modal-title"
-  }, "Modal title"), /*#__PURE__*/_react["default"].createElement("button", {
+    className: "custom-modal-title"
+  }, title, " "), /*#__PURE__*/_react["default"].createElement("button", {
     type: "button",
-    "class": "close",
+    className: "custom-close",
     "aria-label": "Close",
     onClick: onClose
   }, "\xD7")), /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal-body"
-  }, /*#__PURE__*/_react["default"].createElement("p", null, "Employee Created!")), /*#__PURE__*/_react["default"].createElement("div", {
-    "class": "modal-footer"
+    className: "custom-modal-body"
+  }, /*#__PURE__*/_react["default"].createElement("p", null, textContent)), /*#__PURE__*/_react["default"].createElement("div", {
+    className: "custom-modal-footer"
   }, /*#__PURE__*/_react["default"].createElement("button", {
-    "class": "btn btn-secondary",
+    className: "custom-btn custom-btn-secondary",
     onClick: onClose
-  }, "Close")))))) : null;
+  }, "Close")))) : null;
 }
 var _default = exports["default"] = Modal;
