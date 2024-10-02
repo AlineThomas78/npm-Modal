@@ -1,4 +1,4 @@
-# HRnet
+# Modal
 
 ### `Installing the react-aline-modal Library`
 To install and use the react-aline-modal component in your project, follow these steps:
