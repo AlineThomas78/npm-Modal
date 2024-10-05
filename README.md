@@ -39,16 +39,18 @@ export default App;
 - **`title`**: `string` - Title displayed in the modal header.
 - **`textContent`**: `string` - Main content displayed in the modal body.
 
-## Prerequisites
+## Prérequis
 
-Avant d'installer cette librairie, assurez-vous que vous avez les prérequis suivants :
+Before installing this library, please ensure that you have the following prerequisites:
 
-- [Node.js](https://nodejs.org/en/download/) version 14 ou supérieure
-- [npm](https://www.npmjs.com/get-npm) version 6 ou supérieure.
+- [Node.js](https://nodejs.org/en/download/) version 14 or higher.
+- [npm](https://www.npmjs.com/get-npm) version 6 or higher.
 
 
-Si vous utilisez React, vous aurez également besoin de :
+If you are using React, you will also need:
 - React >= 17.x
+
+
 
 
 

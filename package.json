@@ -3,7 +3,7 @@
   "author": "Aline",
   "keywords": ["react-aline-modal" , "modal", "react"],
   "description": "Composant react pour afficher une modal",
-  "version": "0.1.16",
+  "version": "0.1.18",
   "dependencies": {
         "@babel/cli": "^7.24.8",
         "@babel/core": "^7.24.8",
