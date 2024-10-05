@@ -1,4 +1,4 @@
-# HRnet
+# react-aline-modal
 
 ### `Installing the react-aline-modal Library`
 To install and use the react-aline-modal component in your project, follow these steps:
@@ -38,6 +38,17 @@ export default App;
 - **`onClose`**: `function` - Function to close the modal.
 - **`title`**: `string` - Title displayed in the modal header.
 - **`textContent`**: `string` - Main content displayed in the modal body.
+
+## Prerequisites
+
+Avant d'installer cette librairie, assurez-vous que vous avez les prérequis suivants :
+
+- [Node.js](https://nodejs.org/en/download/) version 14 ou supérieure
+- [npm](https://www.npmjs.com/get-npm) version 6 ou supérieure.
+
+
+Si vous utilisez React, vous aurez également besoin de :
+- React >= 17.x
 
 
 
